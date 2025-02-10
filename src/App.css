@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: marschel;
+    src: url("/fonts/marschel-regualar.otf");
+}
+
+.marschel{
+    font-family: marschel;
+}
