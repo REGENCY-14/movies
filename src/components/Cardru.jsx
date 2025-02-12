@@ -4,13 +4,12 @@ import BookMovieCardComponent from './BookMovieCardComponent'
 
 export default function Cardru() {
   return (
-    <>
-    <div className=" flex overflow-x-scroll">
-        <BookMovieCardComponent/>
-        <BookMovieCardComponent/>
-        <BookMovieCardComponent/>
-
+    <div className="flex gap-4 overflow-x-scroll scrollbar-hide">
+      {
+        Array.from({length: 10}).map((_book, index) => (
+          <BookMovieCardComponent key={index}/>
+        ))
+      }
     </div>
-    </>
   )
 }

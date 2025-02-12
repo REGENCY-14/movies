@@ -8,3 +8,7 @@
 .marschel{
     font-family: marschel;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }

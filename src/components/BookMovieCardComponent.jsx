@@ -3,9 +3,8 @@ import React from "react";
 
 export default function BookMovieCardComponent() {
   return (
-    <>
-      <div>
-        <div className="bg-white w-[148px] h-[284px] p-[10px] rounded-[20px] mx-6">
+      <div className="">
+        <div className="bg-white w-[148px] h-[284px] p-[10px] rounded-[20px]">
           <div className="h-[194px] rounded-t-[20px]">
             <img
               src="/images/GOTG.png"
@@ -22,6 +21,5 @@ export default function BookMovieCardComponent() {
           </div>
         </div>
       </div>
-    </>
   );
 }
