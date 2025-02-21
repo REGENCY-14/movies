@@ -5,11 +5,12 @@ import WatchNow from "./components/WatchNow";
 import BookAMovie from "./components/BookAMovie";
 import Cardru from "./components/Cardru";
 import SideNavBar from "./components/SideNavBar";
+import Trending from "./components/Trending";
 
 export default function App() {
   return (
     <div>
-      <div className="relative bg-[#0A071E] h-screen">
+      <div className="relative bg-[#0A071E] h-auto">
         <div className="absolute opacity-[50%] h-[516px]">
           <img
             src="/images/ragnar.jpg"
@@ -28,6 +29,7 @@ export default function App() {
 
           </div>
           <Cardru/>
+          <Trending/>
         </div>
       </div>
     </div>
