@@ -10,29 +10,24 @@ export default function App() {
   return (
     <div>
       <div className="relative bg-[#0A071E] h-screen">
-        <div className="absolute right-0 top-[-100px]">
+        <div className="absolute opacity-[50%] h-[516px]">
+          <img
+            src="/images/ragnar.jpg"
+            alt=""
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute right-0 top-[-50px]">
           <img src="/images/Ellipse 1002.png" alt="" />
         </div>
-        <div className="opacity-[50%] relative">
-          
-          <img src="/images/ragnar.jpg" alt="" className="w-screen" />
-          <div className="absolute inset-0 border-white bg-gradient-to-b from-black/[0.3] to-[#0A071E]"></div>
-        </div>
-       
-        <div className="absolute inset-0 h-min">
-        <div className='absolute top-0'>
-              <SideNavBar />
-            </div>
-            <div className="mt-32">
-            <WatchNow />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/[0.3] via-black/[] to-[#0A071E]"></div>
+        <div className="relative">
+          <WatchNow />
+          <div className="mt-5">
+          <BookAMovie/>
 
-            </div>
-        </div>
-        <div className="">
-          <BookAMovie />
-        </div>
-        <div className="mx-6">
-          <Cardru />
+          </div>
+          <Cardru/>
         </div>
       </div>
     </div>

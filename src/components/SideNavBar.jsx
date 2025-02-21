@@ -5,7 +5,8 @@ import { GoHome } from "react-icons/go";
 import { HiOutlineBookOpen } from "react-icons/hi";
 import { MdOutlineExplore } from "react-icons/md";
 import { RiMovieLine } from "react-icons/ri";
-import { NavLink } from "react-router";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function SideNavBar() {
   const navlinks = [
