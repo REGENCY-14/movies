@@ -6,6 +6,7 @@ import BookAMovie from "./components/BookAMovie";
 import Cardru from "./components/Cardru";
 import SideNavBar from "./components/SideNavBar";
 import Trending from "./components/Trending";
+import TrendingCard from "./components/TrendingCard";
 
 export default function App() {
   return (
@@ -25,11 +26,13 @@ export default function App() {
         <div className="relative">
           <WatchNow />
           <div className="mt-5">
-          <BookAMovie/>
-
+            <BookAMovie />
           </div>
-          <Cardru/>
-          <Trending/>
+          <Cardru />
+          <Trending />
+          <div className="mx-10">
+            <TrendingCard />
+          </div>
         </div>
       </div>
     </div>
