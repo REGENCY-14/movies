@@ -5,8 +5,8 @@ import { IoPlayCircleOutline } from "react-icons/io5";
 export default function TrendingCard() {
   return (
     <div className="w-full h-[396px] place-self-center bg-[#170D34]/[50%] rounded-[32px] overflow-hidden">
-      <div className="h-[284px] w-full border border-red-600 backdrop-blur-xl">
-        <div className="h-[276px] w-full bg-red-600 overflow-hidden">
+      <div className="h-[284px] w-full border backdrop-blur-xl">
+        <div className="h-[276px] w-full overflow-hidden">
           <img
             src="/images/avengers.jpeg"
             alt=""
