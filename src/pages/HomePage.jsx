@@ -26,8 +26,10 @@ export default function App() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/[0.3] via-black/[] to-[#0A071E]"></div>
 
         <div className="relative">
-            {/* <MobileNavBarDropDown/> */}
-            <MobileNavBar />
+          <div className="fixed w-full z-10">
+            <MobileNavBarDropDown />
+          </div>
+          <MobileNavBar />
           <WatchNow />
           <div className="mt-5">
             <BookAMovie />

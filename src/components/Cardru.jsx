@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import BookMovieCardComponent from './BookMovieCardComponent'
+import BookMovieCardComponent from './BookMovieCardComponent';
 
 export default function Cardru() {
   return (
