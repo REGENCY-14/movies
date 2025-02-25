@@ -1,13 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "../App.css";
-import WatchNow from "../components/WatchNow";
-import BookAMovie from "../components/BookAMovie";
-import Cardru from "../components/Cardru";
-import Trending from "../components/Trending";
-import TrendingCard from "../components/TrendingCard";
-import MobileNavBar from "../components/MobileNavBar";
-import MobileNavBarDropDown from "../components/MobileNavBarDropDown";
+import WatchNow from "../components/HomePageComponents/WatchNow";
+import BookAMovie from "../components/HomePageComponents/BookAMovie";
+import Cardru from "../components/HomePageComponents/Cardru";
+import Trending from "../components/HomePageComponents/Trending";
+import TrendingCard from "../components/HomePageComponents/TrendingCard";
+import MobileNavBar from "../components/HomePageComponents/MobileNavBar";
+import MobileNavBarDropDown from "../components/HomePageComponents/MobileNavBarDropDown";
 
 export default function App() {
   return (
