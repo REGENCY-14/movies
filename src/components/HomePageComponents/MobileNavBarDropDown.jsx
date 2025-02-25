@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { GoHome } from "react-icons/go";
 import { HiOutlineBookOpen } from "react-icons/hi";
@@ -19,7 +19,7 @@ export default function MobileNavBarDropDown() {
   ];
   return (
     <>
-      <div className=" bg-[#0B081F] h-[359px] w-full rounded-b-[32px]">
+      <div className="bg-[#0B081F] h-[359px] w-full rounded-b-[32px] relative">
         <img
           src="/images/spiderman.png"
           className="w-full h-full object-cover opacity-[20%] rounded-b-[32px] mix-blend-multiply"

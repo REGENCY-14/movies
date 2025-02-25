@@ -6,8 +6,6 @@ import BookAMovie from "../components/HomePageComponents/BookAMovie";
 import Cardru from "../components/HomePageComponents/Cardru";
 import Trending from "../components/HomePageComponents/Trending";
 import TrendingCard from "../components/HomePageComponents/TrendingCard";
-import MobileNavBar from "../components/HomePageComponents/MobileNavBar";
-import MobileNavBarDropDown from "../components/HomePageComponents/MobileNavBarDropDown";
 
 export default function App() {
   return (
@@ -26,10 +24,6 @@ export default function App() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/[0.3] via-black/[] to-[#0A071E]"></div>
 
         <div className="relative">
-          <div className="fixed w-full z-10">
-            <MobileNavBarDropDown />
-          </div>
-          <MobileNavBar />
           <WatchNow />
           <div className="mt-5">
             <BookAMovie />
