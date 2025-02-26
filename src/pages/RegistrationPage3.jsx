@@ -2,7 +2,6 @@
 import React from "react";
 import ProgressBar3 from "../components/RegistrationPageComponents/ProgressBar3";
 import { useState } from "react";
-import { IoReload } from "react-icons/io5";
 import { IoIosCheckmark } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
 import { FaEye } from "react-icons/fa";
@@ -85,7 +84,7 @@ export default function RegistrationPage3() {
                 </div>
                 <div className="mt-6 place-self-center">
                   <button className=" bg-linear-to-r from-[#9747FFCC]/[80%]  to-[#004999] w-[169px] h-[48px] text-white text-[16px] rounded-[2px]">
-                    Register Now{" "}
+                    Register Now
                   </button>
                 </div>
               </div>
