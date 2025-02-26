@@ -5,6 +5,7 @@ import MainLayout from "./components/Layout/MainLayout";
 import { Routes, Route } from "react-router-dom";
 import RegistrationPage1 from "./pages/RegistrationPage1";
 import RegistrationPage2 from "./pages/RegistrationPage2";
+import RegistrationPage3 from "./pages/RegistrationPage3";
 
 export default function App() {
   return (
@@ -13,6 +14,8 @@ export default function App() {
         <Route element={<HomePage />} index />
         <Route element={<RegistrationPage1 />} path="registration" />
         <Route element={<RegistrationPage2 />} path="registration2" />
+        <Route element={<RegistrationPage3 />} path="registration3" />
+
         <Route path="*" element={<h1>Page not found</h1>} />
       </Route>
     </Routes>
